@@ -16,6 +16,9 @@ Xposed module that displays download progress as an animated ring around the cam
 - Path renderer for pill-shaped cutouts (opt-in)
 - Customizable appearance: colors per state (active/completed/failed), arc thickness, opacity, and direction
 - Completion animations and optional haptic feedback
+- Per-rotation calibration for percentage text, filename text, and badge offsets (0° / 90° / 180° / 270°)
+- Calibration screens show the current rotation slot while tuning offsets
+- Optional vertical filename text layout in landscape
 - Active download counter badge
 - Battery saver-aware rendering
 - Built-in test mode for simulating states
@@ -74,3 +77,7 @@ Pull requests welcome. [Open an issue](https://github.com/hxreborn/punch-hole-do
 <a href="https://github.com/hxreborn/punch-hole-download-progress/blob/main/LICENSE"><img src="https://raw.githubusercontent.com/hxreborn/punch-hole-download-progress/main/.github/assets/gplv3.svg" height="90" alt="GPLv3"></a>
 
 This project is licensed under the GNU General Public License v3.0 – see the [LICENSE](https://github.com/hxreborn/punch-hole-download-progress/blob/main/LICENSE) file for details.
+
+## Also found in
+
+- [Lunaris AOSP](https://github.com/Lunaris-AOSP/frameworks_base/commit/c60d3e785a3261872caa99dc755e6f00a4714ce1)!
