@@ -72,12 +72,12 @@ RELEASE_KEY_PASSWORD=<key_password>
 
 Pull requests welcome. [Open an issue](https://github.com/hxreborn/punch-hole-download-progress/issues/new/choose) for bugs or feature requests.
 
+## Also found in
+
+- [Lunaris AOSP](https://github.com/Lunaris-AOSP/frameworks_base/commit/c60d3e785a3261872caa99dc755e6f00a4714ce1)
+
 ## License
 
 <a href="https://github.com/hxreborn/punch-hole-download-progress/blob/main/LICENSE"><img src="https://raw.githubusercontent.com/hxreborn/punch-hole-download-progress/main/.github/assets/gplv3.svg" height="90" alt="GPLv3"></a>
 
 This project is licensed under the GNU General Public License v3.0 – see the [LICENSE](https://github.com/hxreborn/punch-hole-download-progress/blob/main/LICENSE) file for details.
-
-## Also found in
-
-- [Lunaris AOSP](https://github.com/Lunaris-AOSP/frameworks_base/commit/c60d3e785a3261872caa99dc755e6f00a4714ce1)!
