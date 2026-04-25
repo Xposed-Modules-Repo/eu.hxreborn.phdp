@@ -3,7 +3,7 @@
 Xposed module that displays download progress as an animated ring around the camera cutout.
 
 ![Android CI](https://github.com/hxreborn/punch-hole-download-progress/actions/workflows/android-ci.yml/badge.svg)
-![Kotlin](https://img.shields.io/badge/Kotlin-2.1.21-7F52FF?style=flat&logo=kotlin&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-2.3.21-7F52FF?style=flat&logo=kotlin&logoColor=white)
 ![Android](https://img.shields.io/badge/API-28%2B-3DDC84?logo=android&logoColor=white)
 
 <div align="center">
@@ -17,12 +17,11 @@ Xposed module that displays download progress as an animated ring around the cam
 - Customizable appearance: colors per state (active/completed/failed), arc thickness, opacity, and direction
 - Completion animations and optional haptic feedback
 - Per-rotation calibration for percentage text, filename text, and badge offsets (0° / 90° / 180° / 270°)
-- Calibration screens show the current rotation slot while tuning offsets
 - Optional vertical filename text layout in landscape
 - Active download counter badge
 - Battery saver-aware rendering
+- Hide app from launcher (re-open via LSPosed manager)
 - Built-in test mode for simulating states
-- Theme preference: light, dark, or follow system with Material You dynamic colors
 - Material 3 Expressive settings UI with Jetpack Compose
 
 ## Requirements
@@ -51,9 +50,8 @@ The app includes a built-in `Restart SystemUI` option in the overflow menu. Magi
 ## Build
 
 ```bash
-git clone --recurse-submodules https://github.com/hxreborn/punch-hole-download-progress.git
+git clone https://github.com/hxreborn/punch-hole-download-progress.git
 cd punch-hole-download-progress
-./gradlew buildLibxposed
 ./gradlew assembleRelease
 ```
 
