@@ -1,6 +1,6 @@
 # Punch-hole Download Progress
 
-**[English](https://github.com/hxreborn/punch-hole-download-progress#readme) | [简体中文](https://github.com/hxreborn/punch-hole-download-progress/blob/main/README.zh-CN.md)**
+**English** | [简体中文](https://github.com/hxreborn/punch-hole-download-progress/blob/main/README.zh-CN.md)
 
 Xposed module that renders download progress as an animated ring around the camera cutout.
 
